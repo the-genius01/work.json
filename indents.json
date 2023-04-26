@@ -1,0 +1,164 @@
+[{
+  "_id": {
+    "$oid": "620a4f5276ba7874955c97f2"
+  },
+  "multiConfirmIndent": {
+    "isMultiConfirmIndent": false,
+    "selectedVehicle": null,
+    "isMultiConfirmFCFSIndent": false
+  },
+  "hops": [],
+  "deployedVehicle": null,
+  "anyVehicleType": false,
+  "epodToBeDoneBy": "RECEIVER",
+  "spotId": null,
+  "loadDetails": null,
+  "packingType": null,
+  "reasonForCancellation": "",
+  "roamBeeDevices": [],
+  "automatedIndent": false,
+  "reasonForNotPlaced": null,
+  "revisedFreightRate": null,
+  "vehicleDeployment": null,
+  "combinedContractCharges": null,
+  "combinedWeightSheet": null,
+  "transporterSuggested": null,
+  "reasonForTransporterChange": null,
+  "billingType": "TO_BE_BILLED",
+  "updateConfirmationTimeHistory": [],
+  "loadingBays": [],
+  "isFCFSNRIndent": false,
+  "isAllTransporterIndent": true,
+  "status": "DENY",
+  "rank": "1",
+  "lane": {
+    "code": "8ygHe8hp6",
+    "contract": "xNlZbIm86",
+    "contractType": "VEHICLE_BASIS",
+    "bodyType": "Open - Truck",
+    "vehicleType": "25 MT",
+    "contractUnit": "VEHICLE_BASIS",
+    "source": "Songadh",
+    "points": [],
+    "wayPoints": [],
+    "secondaryPoints": [],
+    "isSecondaryContract": false,
+    "isPTLContract": false
+  },
+  "shipper": {
+    "company": "fd-JK Paper Ltd",
+    "branch": "fd-JK Paper Ltd JK PAPER LTD, UNIT CPM",
+    "address": "FORT SONGADH, GUJARAT-394660",
+    "city": "Songadh",
+    "state": "Gujarat",
+    "country": "India",
+    "pincode": "394660"
+  },
+  "transporter": {
+    "company": "fd-EXPRESS ROADWAYS PVT LTD",
+    "branch": "EXPRESS ROADWAYS PVT LTD"
+  },
+  "receiver": {
+    "company": "fd-JK Paper Ltd",
+    "branch": "fd-JK Paper Ltd Guglani Paper & Stationary Mart",
+    "address": "KH NO-22/8, floor-, , NANGLI POONA, North West Delhi, Delhi, 110036\t",
+    "city": "Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "pincode": "110036"
+  },
+  "vehicleConfirmationTime": {
+    "$date": {
+      "$numberLong": "1644929220000"
+    }
+  },
+  "vehicleDeploymentTime": {
+    "$date": {
+      "$numberLong": "1645103820000"
+    }
+  },
+  "vehicleReportingTime": {
+    "$date": {
+      "$numberLong": "1645192020000"
+    }
+  },
+  "rejectionProtocol": "",
+  "procurementSettings": {
+    "enabled": true,
+    "type": "NONE",
+    "confirmationTime": "30",
+    "deploymentTime": "60",
+    "reportingTime": "90",
+    "defaultTimeEnabled": true,
+    "defaultConfirmTime": null,
+    "defaultReportingTime": null,
+    "defaultDeploymentTime": null,
+    "defaultConfirmationDay": null,
+    "defaultDeploymentDay": null,
+    "defaultReportingDay": null,
+    "allowDetailChange": true,
+    "allowToCancelAfterConfirmation": null,
+    "allowAnyVehicle": true,
+    "nextRankType": null,
+    "absoluteConfirmationDay": null,
+    "absoluteDeploymentDay": null,
+    "absoluteReportingDay": null,
+    "absoluteConfirmationTime": null,
+    "absoluteDeploymentTime": null,
+    "absoluteReportingTime": null,
+    "rejectionRCT": null,
+    "rejectionRDT": null,
+    "rejectionRRT": null,
+    "allowTransporterAgain": false,
+    "instantDeploy": null,
+    "sheetChargesSelected": false,
+    "coilChargesSelected": false,
+    "leaderEndVehicle": null,
+    "NRPConfirmation": null,
+    "NRPDeployment": null,
+    "NRPReporting": null,
+    "multiConfirmationTime": null,
+    "multiConfirmationExpirationTime": null,
+    "relativeNRPC": null,
+    "relativeNRPD": null,
+    "relativeNRPR": null,
+    "relativeDDT": null,
+    "relativeDRT": null,
+    "relativeDCT": null,
+    "allowReceiverToChangeDestination": true,
+    "allowVehicleUpdateAtAnyTime": false,
+    "rejectionExpireType": "REJECT_VEHICLE",
+    "defaultTimeType": "RELATIVE"
+  },
+  "quantity": null,
+  "vehicleType": "25 MT",
+  "vehiclesRequested": 1,
+  "parentIndent": null,
+  "timestamps": {
+    "INDENT_RAISED": {
+      "$date": {
+        "$numberLong": "1644842834709"
+      }
+    },
+    "INDENT_CONFIRMED": null,
+    "INDENT_DEPLOYED": null,
+    "INDENT_DENIED": null
+  },
+  "tripId": null,
+  "requestID": "RID-JPER-o7ihZ8lw0",
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1644842834675"
+    }
+  },
+  "createdBy": "satyajeetsingh@cpmjk.jkmail.com",
+  "modifiedOn": {
+    "$date": {
+      "$numberLong": "1644842834675"
+    }
+  },
+  "modifiedBy": "satyajeetsingh@cpmjk.jkmail.com",
+  "code": "IND-JPER-M_AAuVVUwz",
+  "vehicleReported": false,
+  "__v": 0
+}]

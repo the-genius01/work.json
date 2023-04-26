@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "5ed4b969ca849e6bc7dd5cbb"
+  },
+  "shipperApproval": {
+    "charges": [],
+    "requestForWaiveOff": false,
+    "approvedForTransporter": true,
+    "hold": false,
+    "approved": true
+  },
+  "transporterApproval": {
+    "charges": [],
+    "digitallySigned": true,
+    "requestForNegotiation": false,
+    "hold": false,
+    "approved": true
+  },
+  "epodImages": [],
+  "invoice": "JTGF10029",
+  "tripId": "P-Full Truck Load-404745138",
+  "billNo": "GFI-20-21-37159",
+  "dateOfCreation": "01/06/20",
+  "shipper": {
+    "company": "fd- Global Foods Pvt Ltd",
+    "branch": "fd- Global Foods Pvt Ltd Surat-Global Foods Pvt. Ltd"
+  },
+  "transporter": {
+    "company": "fd-Jyothi Transporter",
+    "branch": "Jyothi-Trans"
+  },
+  "vehicleNumber": "KA12Q1277",
+  "visibility": true,
+  "minimumTonnage": 0,
+  "value": 40400,
+  "toll": 0,
+  "departureTime": {
+    "$date": {
+      "$numberLong": "1591003345000"
+    }
+  },
+  "loading": {
+    "gracePeriodInHours": 24,
+    "loadingCharge": 300
+  },
+  "unloading": {
+    "gracePeriodInHours": 24,
+    "unloadingCharge": 300
+  },
+  "detention": {
+    "detentionChargesApplied": 0,
+    "detentionChargeAtLoading": 0,
+    "detentionChargeAtUnloading": 0,
+    "detentionAtLoading": 0,
+    "detentionAtLoadingUnit": "DAY",
+    "detentionAtUnloading": 0,
+    "detentionAtUnloadingUnit": "DAY"
+  },
+  "delay": {
+    "delayChargesApplied": 0,
+    "delayAtSource": 0,
+    "delayAtDestination": 0,
+    "delayChargesAtSource": 0,
+    "delayChargesAtDestination": 0,
+    "delayAtSourceUnit": "DAY",
+    "delayAtDestinationUnit": "DAY"
+  },
+  "baseCharge": 39800,
+  "basicFreight": 39800,
+  "tax": 4848,
+  "valueWithTax": 45248,
+  "hopChargesArray": [],
+  "totalHopCharges": 0,
+  "status": "READY",
+  "cgst": null,
+  "igst": 4848,
+  "sgst": null,
+  "coolOffPeriod": null,
+  "epodQuestions": [],
+  "history": [],
+  "__v": 0,
+  "isUploadedToFtp": true
+}]

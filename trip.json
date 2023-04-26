@@ -1,0 +1,413 @@
+[{
+  "_id": {
+    "$oid": "6360c2606922900c0dd92f05"
+  },
+  "shipper": {
+    "loadingBay": [],
+    "company": "fd-Shahi Exports Pvt Ltd (Inbound)",
+    "branch": "fd-Shahi Exports Pvt Ltd (Inbound) Ramkrishna  Cottex Pvt Ltd( 3p - Ichalkaranji)",
+    "address": "Ramkrishna cottex pvt ltd , 9/50/87 , Industrial Estate ichalkaranji -416115",
+    "city": "Ichalkaranji",
+    "state": "Maharashtra",
+    "country": "India",
+    "branchName": "Ramkrishna  Cottex Pvt Ltd( 3p - Ichalkaranji)",
+    "name": "Shahi Exports Pvt Ltd (Inbound)"
+  },
+  "hops": [],
+  "epod": [
+    {
+      "questionsResponse": "{\"Have you received the goods on time?\":false,\"Was the Consignment delivered properly ?\":false,\"Was there a delay in the transit of the consignment?\":false}",
+      "lineItemsEpod": [
+        {
+          "code": "x_a2k7VKF",
+          "invoice": null,
+          "skuArr": [
+            {
+              "code": "mdQAJ4NEQi",
+              "skuCode": null,
+              "issue": null,
+              "autoHold": null
+            }
+          ]
+        }
+      ],
+      "userName": "Sugam Domexcargo",
+      "userEmail": "sugam@domexcargo.com",
+      "userContactNumber": "9953484593",
+      "comments": "",
+      "deliveryReceiptImages": [
+        "https://fd-prd01239123.s3.ap-south-1.amazonaws.com/trip/fd-Domex%20Cargo%20Services/2022/11/01/delivery/1667384538012-48033.jpeg"
+      ],
+      "location": [],
+      "isDamage": false,
+      "damageImgages": [],
+      "anyIssue": false,
+      "lineItemEPODInvoices": [
+        {
+          "invoice": "GST-1748",
+          "issue": null,
+          "received": true
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "mode": "Manual",
+  "partyVehicle": false,
+  "epodToBeDoneBy": "RECEIVER_AND_TRANSPORTER_AND_SHIPPER",
+  "epodOfHopToBeDoneBy": "RECEIVER",
+  "spotId": null,
+  "ewb": "291502046597",
+  "eWayBillexpiryDate": {
+    "$date": {
+      "$numberLong": "1668063325000"
+    }
+  },
+  "validUpto": null,
+  "destinationReachedLogs": [
+    {
+      "createdBy": "sugam@domexcargo.com",
+      "updatedOn": {
+        "$date": {
+          "$numberLong": "1667384163601"
+        }
+      },
+      "type": "Transporter",
+      "branch": "",
+      "name": "Sugam Domexcargo",
+      "final": true
+    }
+  ],
+  "epodLogs": [
+    {
+      "createdOn": {
+        "$date": {
+          "$numberLong": "1667384538104"
+        }
+      },
+      "branch": null,
+      "createdBy": "sugam@domexcargo.com",
+      "type": "Transporter"
+    }
+  ],
+  "unloadLogs": [
+    {
+      "unloadOn": {
+        "$date": {
+          "$numberLong": "1667384571000"
+        }
+      },
+      "receiver": "fd-Domex Cargo Services",
+      "createdBy": "sugam@domexcargo.com",
+      "name": "Sugam Domexcargo",
+      "type": "Transporter",
+      "final": true
+    }
+  ],
+  "isActive": true,
+  "shipmentId": [],
+  "reasonForCancellation": "",
+  "automatedIndent": false,
+  "canReceiverChangeDestination": true,
+  "destinationChangeCharges": 0,
+  "destinationChangeLogs": [],
+  "shipperApprovalForDestinationChange": "DESTINATION_NOT_CHANGED",
+  "shipperCanApproveGateIn": false,
+  "billingType": "TO_BE_BILLED",
+  "docketNumbers": [],
+  "loadingBays": [],
+  "packingType": [],
+  "destinationGateInLogs": [],
+  "warehouseHistory": [
+    {
+      "warehouse": "Out For Delivery",
+      "time": "2022-11-02T06:16:50.236Z",
+      "reason": "material dispatched from nizamuddin"
+    }
+  ],
+  "shipperHoldHistory": [],
+  "code": "P-PTL(Train)-721388390",
+  "status": "COMPLETED",
+  "lane": {
+    "code": "ejgglDPC_qhs",
+    "contract": "tBHMqxnBhZgp",
+    "contractType": "WEIGHT_BASIS",
+    "bodyType": null,
+    "vehicleType": null,
+    "measurementUnit": "KG",
+    "contractUnit": {
+      "type": "WEIGHT_BASIS",
+      "bodyType": null,
+      "vehicleType": null,
+      "measurementUnit": "KG",
+      "charge": 19,
+      "start": {
+        "$date": {
+          "$numberLong": "1666636200000"
+        }
+      },
+      "end": {
+        "$date": {
+          "$numberLong": "1690828199999"
+        }
+      }
+    },
+    "source": "Ichalkaranji",
+    "destination": "Mathura",
+    "points": [],
+    "wayPoints": [],
+    "isSecondaryContract": false,
+    "secondaryPoints": [],
+    "isPTLContract": true,
+    "mode": "Surface",
+    "isCityWiseContract": true,
+    "isEscortEnabled": false,
+    "shipmentType": "PTL",
+    "serviceType": "Train",
+    "tripType": "THREE_P",
+    "is3PContract": true
+  },
+  "po": null,
+  "transporter": {
+    "company": "fd-Domex Cargo Services",
+    "branch": "Domex Cargo Services (Delhi)",
+    "name": "Domex Cargo Services"
+  },
+  "receiver": {
+    "company": "fd-Shahi Exports Pvt Ltd (Inbound)",
+    "branch": "fd-Shahi Exports Pvt Ltd (Inbound) GTM Industries Pvt Ltd (3P - Mathura)",
+    "address": "A-6, C-6 , KOTWAN KOSI KALAN, ,UPSIDC INDUSTRIAL AREA , MATHURA ,UPSIDC INDUSTRIAL AREA ,MATHURA (U.P.)",
+    "city": "Mathura",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "pincode": "281403",
+    "branchName": "GTM Industries Pvt Ltd (3P - Mathura)",
+    "name": "Shahi Exports Pvt Ltd (Inbound)"
+  },
+  "vehicleDeployment": {
+    "lrNumber": [
+      "48033"
+    ],
+    "rejectionImages": [],
+    "inspectionReport": [],
+    "outgoingImages": [],
+    "documentsVerification": "",
+    "_id": {
+      "$oid": "6360c25f6922900c0dd92f04"
+    },
+    "vehicle": {
+      "vehicleType": "3P Vehicle Type",
+      "number": "3P Number",
+      "code": "3P Code",
+      "bodyType": "3P Body Type",
+      "allowVehicleUpdateAtAnyTime": true
+    },
+    "trackingFrom": "Deployment Time",
+    "driver": {
+      "name": "3P Driver"
+    },
+    "vehicleReportingTime": {
+      "$date": {
+        "$numberLong": "1667314500000"
+      }
+    },
+    "code": "yeFB2RrteI",
+    "status": "IN_TRANSIT",
+    "outgoingRemark": ""
+  },
+  "gpsType": "E-WAY",
+  "vendor": null,
+  "deviceNumber": null,
+  "tracking": false,
+  "indent": "IND-SEDC-WVXKONw3eiB-",
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1667285600215"
+    }
+  },
+  "createdBy": "sugam@domexcargo.com",
+  "modifiedOn": {
+    "$date": {
+      "$numberLong": "1667384582498"
+    }
+  },
+  "modifiedBy": "odin",
+  "loadDetails": {
+    "quantity": 4,
+    "totalWeight": 170,
+    "packingType": null,
+    "weightUnit": "KG",
+    "totalVolume": 1,
+    "volumeUnit": "CFT",
+    "bosNumber": "",
+    "remarks": "",
+    "costCenter": null,
+    "GL": null,
+    "dValue": 0,
+    "packages": 0,
+    "chWeight": 0,
+    "chWeightUnit": "KG",
+    "rate": 0,
+    "freight": 0,
+    "stationaryCharges": 0,
+    "cartageCharges": 0,
+    "doorDeliveryCharges": 0,
+    "vscCharges": 0,
+    "doorCollectionCharges": 0,
+    "billOfSaleNumber": 0,
+    "chaReceiver": null,
+    "cfsGoodsClearanceUnit": null,
+    "modifiedOn": {
+      "$date": {
+        "$numberLong": "1667285600218"
+      }
+    },
+    "modifiedBy": "sugam@domexcargo.com",
+    "details": [
+      {
+        "name": "fabric",
+        "sku": "rolls",
+        "invoice": "GST-1748",
+        "soNumber": null,
+        "destination": {
+          "company": "fd-Shahi Exports Pvt Ltd (Inbound)",
+          "name": "Shahi Exports Pvt Ltd (Inbound)",
+          "branch": "fd-Shahi Exports Pvt Ltd (Inbound) GTM Industries Pvt Ltd (3P - Mathura)",
+          "branchName": "GTM Industries Pvt Ltd (3P - Mathura)",
+          "city": "Mathura"
+        },
+        "taxInvoice": "GST-1748",
+        "mainUnitQuantity": 4,
+        "mainUnitType": "PIECE",
+        "perUnitVolume": 1,
+        "perUnitType": null,
+        "perUnitWeight": 170,
+        "perUnitWeightType": null,
+        "subUnit": "",
+        "subUnitType": "PIECE",
+        "roamBeeDevices": [],
+        "lr": "48033",
+        "invoiceSpend": null,
+        "invoiceValue": null,
+        "paymentType": null,
+        "eway": null,
+        "loadID": "jg7XPyKPViR",
+        "poNumber": "22090744"
+      }
+    ],
+    "chargesData": [
+      {
+        "chargesName": "DOCKET CHARGES",
+        "addCharges": 10
+      }
+    ]
+  },
+  "makeEPODImagesMandatory": true,
+  "epodPriorityForBilling": {
+    "receiver": true,
+    "shipper": true,
+    "transporter": true
+  },
+  "settings": {
+    "enableGateInForReceiver": true,
+    "tripExceptionSettings": false
+  },
+  "billTo": {
+    "branch": "fd-Shahi Exports Pvt Ltd (Inbound) Ramkrishna  Cottex Pvt Ltd( 3p - Ichalkaranji)",
+    "branchName": "Ramkrishna  Cottex Pvt Ltd( 3p - Ichalkaranji)",
+    "company": "fd-Shahi Exports Pvt Ltd (Inbound)",
+    "name": "Shahi Exports Pvt Ltd (Inbound)",
+    "city": "Ichalkaranji",
+    "address": "Ramkrishna cottex pvt ltd , 9/50/87 , Industrial Estate ichalkaranji -416115",
+    "state": "Maharashtra",
+    "country": "India",
+    "pincode": "416115"
+  },
+  "consolidatedInvoices": {
+    "totalActualWeight": 170,
+    "weightUnit": "KG",
+    "totalVolume": 1,
+    "volumeUnit": "CFT",
+    "totalQuantity": 4,
+    "tripCategory": "Commercial",
+    "remarks": null,
+    "invoices": [
+      "Fntthd8J0wfH"
+    ],
+    "mode": "Surface",
+    "approvedBy": "harpinder.palsingh@shahi.co.in"
+  },
+  "plannedLoadSummary": {
+    "quantity": 4,
+    "weight": 170,
+    "volume": 1
+  },
+  "dispatchLogs": [],
+  "timestamps": {
+    "INDENT_RAISED": {
+      "$date": {
+        "$numberLong": "1667285493863"
+      }
+    },
+    "INDENT_CONFIRMED": {
+      "$date": {
+        "$numberLong": "1667285599228"
+      }
+    },
+    "INDENT_DEPLOYED": {
+      "$date": {
+        "$numberLong": "1667285659228"
+      }
+    },
+    "INDENT_DENIED": null,
+    "SOURCE_IN_TIME": {
+      "$date": {
+        "$numberLong": "1667219453644"
+      }
+    },
+    "VEHICLE_DISPATCH_TIME": {
+      "$date": {
+        "$numberLong": "1667235616000"
+      }
+    },
+    "DESTINATION_REACHED_TIME": {
+      "$date": {
+        "$numberLong": "1667383249000"
+      }
+    },
+    "EPOD_DONE": {
+      "$date": {
+        "$numberLong": "1667384538008"
+      }
+    },
+    "UNLOADED_TIME": {
+      "$date": {
+        "$numberLong": "1667384571000"
+      }
+    }
+  },
+  "__v": 0,
+  "warehouse": "Out For Delivery",
+  "destinationReachedEnterBy": "sugam@domexcargo.com",
+  "destinationReachedOn": {
+    "$date": {
+      "$numberLong": "1667384163601"
+    }
+  },
+  "transitDelay": {
+    "transitDelayCharges": null,
+    "transitDelay": null
+  },
+  "delay": {
+    "delayAtSource": 0,
+    "delayAtDestination": 0,
+    "delayAtSourceUnit": "HOURS",
+    "delayAtDestinationUnit": "HOURS"
+  },
+  "detention": {
+    "detentionAtLoading": 0,
+    "detentionAtUnloading": 0,
+    "detentionAtLoadingUnit": "HOURS",
+    "detentionAtUnloadingUnit": "HOURS"
+  }
+}]
